@@ -2,22 +2,48 @@
   position: relative;
   height: fit-content;
   width: 324.96px;
-  height: 353.91px;
+  height: 450px;
 }
 .background_div {
   position: absolute;
+  height: 353.91px;
+  transition: all 0.8s;
+  z-index: 2;
+  top: 40px;
   width: inherit;
-  height: inherit;
+  
   background: #000000;
   border-radius: 0px 0px 9.65216px 9.65216px;
 }
-.foreground_div {
+.info_card {
   position: absolute;
+  width: 98%;
+
+  left: 1%;
+  border-radius: 9.65216px;
+  z-index: 3;
+  background-color: red;
+  color: white;
+  padding-bottom: 100px;
+}
+.info_card > h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.info_card > p {
+  font-size: 24px;
+  text-align: left;
+  margin-left: 70px;
+}
+.foreground_div {
+  transition: all 800ms;
+  z-index: 4;
+  position: absolute;
+  top: 40px;
   width: inherit;
-  height: inherit;
+  height: 353.91px;
   background: #edeeff;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 9.65216px;
-  border-top-left-radius: -9.65216px;
 }

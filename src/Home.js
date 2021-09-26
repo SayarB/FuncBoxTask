@@ -47,7 +47,55 @@ function Home() {
           <p>Cancel Anytime</p>
         </div>
       </div>
-      
+      <div className={styles.plans_section}>
+        <h1>Plans</h1>
+        <div className={styles.plan_cards}>
+          <SubscriptionCards
+            color="red"
+            head="Basic"
+            info={
+              <>
+                • FuncBox Binder
+                <br />
+                • 3 mathematical apps
+                <br />
+                • 3 scientific apps
+                <br />
+                • 3 game apps
+                <br />
+                • Stickers
+                <br />
+                • Kickstart guide
+                <br />
+                • Interactive website
+                <br />
+              </>
+            }
+          />
+          <SubscriptionCards
+            color="green"
+            head="Premium"
+            info={
+              <>
+                • FuncBox Binder
+                <br />
+                • 3 mathematical apps
+                <br />
+                • 3 scientific apps
+                <br />
+                • 3 game apps
+                <br />
+                • Stickers
+                <br />
+                • Kickstart guide
+                <br />
+                • Interactive website
+                <br />
+              </>
+            }
+          />
+        </div>
+      </div>
     </div>
   );
 }
