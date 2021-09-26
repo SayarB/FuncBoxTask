@@ -1,4 +1,4 @@
-
+import { getDefaultMiddleware } from "@reduxjs/toolkit";
 import React, { useState } from "react";
 import InputField from "./InputField";
 function ShippingInput({ getData }) {

@@ -26,9 +26,16 @@ function Checkout() {
           <BillingInput getData={getBillingData}></BillingInput>
         </div>
         <div className={styles.order_summary}>
-          <OrderSummary />
+          <OrderSummary
+            nextPage="payment"
+            buttonText="Proceed to pay"
+            couponEntry={true}
+          />
         </div>
       </div>
+      <footer>
+        <img src="footer.png" alt="" style={{ width: "100%" }} />
+      </footer>
     </div>
   );
 }
