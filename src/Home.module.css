@@ -57,6 +57,7 @@
   margin: 10px 0px;
   text-align: center;
   position: relative;
+  margin-bottom: 40px;
 }
 .plans_section > h1 {
   font-style: normal;
@@ -82,4 +83,71 @@
   position: absolute;
   bottom: 20px;
   right: 20%;
+}
+.onetimegift_band {
+  width: 100%;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  background-color: #fffcb2;
+  justify-content: center;
+  margin: 40px 0px;
+}
+.onetimegift_band > p {
+  font-size: 24px;
+  color: #f79200;
+  margin-left: 20px;
+}
+.faq_section {
+  padding: 50px;
+}
+.faq_section > h1 {
+  text-align: center;
+  font-weight: 600;
+}
+.faq_section > p {
+  font-size: 20px;
+  line-height: 2;
+}
+.for_school_section {
+  margin-bottom: 100px;
+}
+.for_school_section > h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.for_school_info {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.bag_image {
+  max-width: 500px;
+}
+
+.for_school_text {
+  background-color: #f8f8ffde;
+  display: flex;
+  place-items: center;
+  align-items: center;
+  max-width: 500px;
+  z-index: 10;
+  flex: 1;
+  font-size: 24px;
+  padding: 30px;
+}
+footer > img {
+  width: 100vw;
+}
+.overlay {
+  transition: all 0.8s;
+  background-color: rgba(128, 128, 128, 0.425);
+  z-index: 21;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
 }

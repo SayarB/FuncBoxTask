@@ -1,13 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import GoToCart from "./GoToCart";
 import styles from "./Home.module.css";
 import SubscriptionCards from "./SubscriptionCards";
+import { useSelector, useDispatch } from "react-redux";
+import { add_element, remove_element } from "./features/cart/CartSlice";
+import CartSidePanel from "./CartSidePanel";
+
 function Home() {
+  const cart = useSelector((state) => state.cart.cart_elements);
+  const dispatch = useDispatch();
+  const [cartOpen, setCartOpen] = useState(false);
+
+  const addToCart = (plan_id) => {
+    dispatch(add_element(plan_id));
+  };
   return (
     <div className={styles.home}>
+      <div
+        className={styles.overlay}
+        style={{
+          display: cartOpen ? "initial" : "none",
+          opacity: cartOpen ? "100%" : "0%",
+        }}
+        onClick={() => {
+          setCartOpen(false);
+        }}
+      ></div>
+
+      <CartSidePanel
+        isOpen={cartOpen}
+        cart_elements={cart}
+        dispatch={dispatch}
+        add_element={add_element}
+        remove_element={remove_element}
+      />
+
       <Header />
-      <GoToCart />
+      <GoToCart
+        onClick={() => {
+          setCartOpen(true);
+        }}
+      />
       <div>
         <div className={styles.hero_container}>
           <img src="hero-image.png" alt="" className={styles.hero_image} />
@@ -53,6 +87,8 @@ function Home() {
           <SubscriptionCards
             color="#F05D6A"
             head="Basic"
+            plan_id={0}
+            addToCart={addToCart}
             info={
               <>
                 • FuncBox Binder
@@ -75,6 +111,8 @@ function Home() {
           <SubscriptionCards
             color="#FFD27B"
             head="Standard"
+            plan_id={1}
+            addToCart={addToCart}
             info={
               <>
                 • FuncBox Binder <br />
@@ -91,6 +129,8 @@ function Home() {
           <SubscriptionCards
             color="#36BFA5"
             head="Premium"
+            plan_id={2}
+            addToCart={addToCart}
             info={
               <>
                 • FuncBox Binder <br />
@@ -110,6 +150,45 @@ function Home() {
           <img src="angry_birds.png" alt="" className={styles.angry_birds} />
         </div>
       </div>
+      <div className={styles.onetimegift_band}>
+        <img src="box5.png" alt="" />
+        <p>Searching for a one-time gift or corporate? You're in luck »</p>
+      </div>
+      <div className={styles.faq_section}>
+        <h1>Frequently Asked Questions</h1>
+        <p>
+          What age is Funcbox for? <br />
+          Funcbox is designed for kids 6-12 years in age.
+          <br />
+          What age is Funcbox for? <br />
+          Funcbox is designed for kids 6-12 years in age.
+          <br />
+          What age is Funcbox for? <br />
+          Funcbox is designed for kids 6-12 years in age.
+          <br />
+          What age is Funcbox for? <br />
+          Funcbox is designed for kids 6-12 years in age.
+          <br />
+        </p>
+      </div>
+      <div className={styles.for_school_section}>
+        <h1>For Schools</h1>
+        <div className={styles.for_school_info}>
+          <img src="for_school.png" alt="" className={styles.bag_image} />
+
+          <div className={styles.for_school_text}>
+            <p>
+              Yay! FuncBox brings special discount for all the School Tie-ups.
+              FuncBox can be easily incorporated in all the school grades. To
+              make your students outperform and help your institute gain an edge
+              over the others contact our team NOW!
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <img src="footer.png" alt="" />
+      </footer>
     </div>
   );
 }

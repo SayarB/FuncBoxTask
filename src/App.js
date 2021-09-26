@@ -3,6 +3,8 @@ import Home from "./Home";
 import About from "./About";
 import PageNotFound from "./PageNotFound";
 import "./App.css";
+import Checkout from "./Checkout";
+import Payment from "./Payment";
 
 function App() {
   return (
@@ -12,8 +14,11 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/about">
-            <About />
+          <Route exact path="/checkout">
+            <Checkout />
+          </Route>
+          <Route exact path="/payment">
+            <Payment />
           </Route>
           <Route>
             <PageNotFound />

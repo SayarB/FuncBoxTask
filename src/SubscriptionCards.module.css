@@ -53,3 +53,10 @@
   margin: 34px 0;
   font-size: 24px;
 }
+.add_to_cart_button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 24px;
+  color: #f05d6a;
+  cursor: pointer;
+}

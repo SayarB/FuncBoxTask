@@ -1,0 +1,10 @@
+.checkout_container {
+  display: flex;
+}
+.shipping_info {
+  margin: 10px;
+  flex: 1;
+}
+.order_summary {
+  flex: 1;
+}

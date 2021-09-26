@@ -1,0 +1,33 @@
+.cart_side_panel {
+  transition: all 0.8s;
+  z-index: 25;
+  position: fixed;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  width: 300px;
+  background-color: white;
+  height: 100vh;
+}
+.cart_side_panel > h1 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+.cart_side_panel > button {
+  margin: 10px;
+  background-color: #36bfa5;
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 5px 20px;
+  width: fit-content;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.disabled {
+  cursor: initial;
+  background-color: gray;
+}

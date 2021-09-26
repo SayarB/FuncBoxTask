@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./SubscriptionCards.module.css";
-function SubscriptionCards({ color, head, info }) {
+function SubscriptionCards({ color, head, info, plan_id, addToCart }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -38,6 +38,16 @@ function SubscriptionCards({ color, head, info }) {
           <p>Quarterly a/month</p>
           <p>Half-yearly a/month</p>
           <p>Yearly a/month</p>
+          {isOpen && (
+            <button
+              className={styles.add_to_cart_button}
+              onClick={() => {
+                addToCart(plan_id);
+              }}
+            >
+              Add to Cart
+            </button>
+          )}
         </div>
       </div>
     </div>

@@ -9,6 +9,10 @@ body {
 * {
   margin: 0;
 }
+h1 {
+  font-weight: 600;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-export const counterSlice = createSlice({
-  name: "counter",
+export const cartSlice = createSlice({
+  name: "cart",
   initialState: {
     cart_elements: [0],
   },
@@ -19,6 +19,6 @@ export const counterSlice = createSlice({
 });
 
 // Action creators are generated for each case reducer function
-export const { add_element, remove_element } = counterSlice.actions;
+export const { add_element, remove_element } = cartSlice.actions;
 
-export default counterSlice.reducer;
+export default cartSlice.reducer;
