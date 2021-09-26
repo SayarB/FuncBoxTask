@@ -51,7 +51,7 @@ function Home() {
         <h1>Plans</h1>
         <div className={styles.plan_cards}>
           <SubscriptionCards
-            color="red"
+            color="#F05D6A"
             head="Basic"
             info={
               <>
@@ -73,7 +73,29 @@ function Home() {
             }
           />
           <SubscriptionCards
-            color="green"
+            color="#FFD27B"
+            head="Standard"
+            info={
+              <>
+                • FuncBox Binder
+                <br />
+                • 3 mathematical apps
+                <br />
+                • 3 scientific apps
+                <br />
+                • 3 game apps
+                <br />
+                • Stickers
+                <br />
+                • Kickstart guide
+                <br />
+                • Interactive website
+                <br />
+              </>
+            }
+          />
+          <SubscriptionCards
+            color="#FFD27B"
             head="Premium"
             info={
               <>
