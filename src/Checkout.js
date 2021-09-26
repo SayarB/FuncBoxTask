@@ -5,6 +5,7 @@ import styles from "./Checkout.module.css";
 import InputField from "./InputField";
 import ShippingInput from "./ShippingInput";
 import BillingInput from "./BillingInput";
+import OrderSummary from "./OrderSummary";
 function Checkout() {
   const [shippingInfo, setShippingInfo] = useState(null);
   const [billingInfo, setBillingInfo] = useState(null);
@@ -25,8 +26,7 @@ function Checkout() {
           <BillingInput getData={getBillingData}></BillingInput>
         </div>
         <div className={styles.order_summary}>
-
-            
+          <OrderSummary />
         </div>
       </div>
     </div>
