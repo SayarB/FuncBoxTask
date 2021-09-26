@@ -44,6 +44,7 @@ function SubscriptionCards({ color, head, info, plan_id, addToCart }) {
               onClick={() => {
                 addToCart(plan_id);
               }}
+              style={{ color: color }}
             >
               Add to Cart
             </button>
