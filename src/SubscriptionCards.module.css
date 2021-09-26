@@ -1,0 +1,23 @@
+.sub_card {
+  position: relative;
+  height: fit-content;
+  width: 324.96px;
+  height: 353.91px;
+}
+.background_div {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background: #000000;
+  border-radius: 0px 0px 9.65216px 9.65216px;
+}
+.foreground_div {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background: #edeeff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 9.65216px;
+  border-top-left-radius: -9.65216px;
+}

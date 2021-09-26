@@ -1,0 +1,17 @@
+.gotocart_button {
+  background-color: #fffcb2;
+  width: fit-content;
+  padding: 10px;
+  border-bottom-left-radius: 25%;
+  border-top-left-radius: 25%;
+  position: fixed;
+  right: 0;
+  font-size: 24px;
+  display: flex;
+  place-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+.image {
+  margin: 0 5px;
+}
