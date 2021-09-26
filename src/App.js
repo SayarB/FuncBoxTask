@@ -5,6 +5,7 @@ import PageNotFound from "./PageNotFound";
 import "./App.css";
 import Checkout from "./Checkout";
 import Payment from "./Payment";
+import Success from "./Success";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route exact path="/payment">
             <Payment />
+          </Route>
+          <Route exact path="/success">
+            <Success />
           </Route>
           <Route>
             <PageNotFound />

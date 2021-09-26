@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+.congrats {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.congrats > h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Sacramento", cursive;
+  font-size: 72px;
+}
+
+@keyframes truckanim {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 80vw;
+  }
+}
+.truck {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: -40px;
+  animation: truckanim 5s;
+}

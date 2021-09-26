@@ -1,11 +1,16 @@
 import React from "react";
+import { useHistory } from "react-router";
 import styles from "./Header.module.css";
 function Header() {
+  const history = useHistory();
   return (
     <div className={styles.header}>
       <nav className={styles.navbar}>
         <div className={styles.logo}>
           <img
+            onClick={() => {
+              history.push("/");
+            }}
             src="funcbox-logo.svg"
             alt="logo"
             className={styles.logo_image}
