@@ -77,45 +77,37 @@ function Home() {
             head="Standard"
             info={
               <>
-                • FuncBox Binder
-                <br />
-                • 3 mathematical apps
-                <br />
-                • 3 scientific apps
-                <br />
-                • 3 game apps
-                <br />
-                • Stickers
-                <br />
-                • Kickstart guide
-                <br />
-                • Interactive website
-                <br />
+                • FuncBox Binder <br />
+                • 5 mathematical apps <br />
+                • 5 scientific apps <br />
+                • 5 game apps <br />
+                • Stickers <br />
+                • Mini fun deck <br />
+                • Kickstart guide <br />
+                • Interactive website <br />
               </>
             }
           />
           <SubscriptionCards
-            color="#FFD27B"
+            color="#36BFA5"
             head="Premium"
             info={
               <>
-                • FuncBox Binder
-                <br />
-                • 3 mathematical apps
-                <br />
-                • 3 scientific apps
-                <br />
-                • 3 game apps
-                <br />
-                • Stickers
-                <br />
-                • Kickstart guide
-                <br />
-                • Interactive website
-                <br />
+                • FuncBox Binder <br />
+                • 8 mathematical apps <br />
+                • 8 scientific apps <br />
+                • 8 game apps <br />
+                • 2 Surprise goodies <br />
+                • Mystery toy <br />
+                • Stickers <br />
+                • Mini fun deck <br />
+                • Kickstart guide <br />
+                • Interactive website <br />
               </>
             }
           />
+          <img src="baby_jombee.png" alt="" className={styles.baby_jombee} />
+          <img src="angry_birds.png" alt="" className={styles.angry_birds} />
         </div>
       </div>
     </div>

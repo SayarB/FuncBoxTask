@@ -11,14 +11,15 @@
   z-index: 2;
   top: 40px;
   width: inherit;
-  
+
   background: #000000;
   border-radius: 0px 0px 9.65216px 9.65216px;
 }
 .info_card {
+  transition: all 0.8s;
   position: absolute;
   width: 98%;
-
+  height: inherit;
   left: 1%;
   border-radius: 9.65216px;
   z-index: 3;
@@ -36,7 +37,7 @@
   margin-left: 70px;
 }
 .foreground_div {
-  transition: all 800ms;
+  transition: all 0.8s;
   z-index: 4;
   position: absolute;
   top: 40px;
@@ -46,4 +47,9 @@
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 9.65216px;
+}
+.foreground_div > p {
+  color: #241663;
+  margin: 34px 0;
+  font-size: 24px;
 }

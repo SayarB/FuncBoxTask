@@ -53,9 +53,10 @@
   margin-right: 10px;
 }
 .plans_section {
-  height: fit-content;
+  transition: all 0.8s;
   margin: 10px 0px;
   text-align: center;
+  position: relative;
 }
 .plans_section > h1 {
   font-style: normal;
@@ -64,8 +65,21 @@
   line-height: 50px;
   margin-bottom: 20px;
 }
+
 .plan_cards {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
+}
+.baby_jombee {
+  width: 200px;
+  transition: inherit;
+  position: absolute;
+  bottom: 2px;
+  left: 50px;
+}
+.angry_birds {
+  position: absolute;
+  bottom: 20px;
+  right: 20%;
 }
