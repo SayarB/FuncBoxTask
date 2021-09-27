@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/SayarB/FuncBoxs/static/css/main.499c6fca.chunk.css",
-    "main.js": "/SayarB/FuncBoxs/static/js/main.b454e875.chunk.js",
-    "main.js.map": "/SayarB/FuncBoxs/static/js/main.b454e875.chunk.js.map",
-    "runtime-main.js": "/SayarB/FuncBoxs/static/js/runtime-main.8e92d5cd.js",
-    "runtime-main.js.map": "/SayarB/FuncBoxs/static/js/runtime-main.8e92d5cd.js.map",
-    "static/js/2.fdcdc093.chunk.js": "/SayarB/FuncBoxs/static/js/2.fdcdc093.chunk.js",
-    "static/js/2.fdcdc093.chunk.js.map": "/SayarB/FuncBoxs/static/js/2.fdcdc093.chunk.js.map",
-    "static/js/3.a9755a20.chunk.js": "/SayarB/FuncBoxs/static/js/3.a9755a20.chunk.js",
-    "static/js/3.a9755a20.chunk.js.map": "/SayarB/FuncBoxs/static/js/3.a9755a20.chunk.js.map",
-    "index.html": "/SayarB/FuncBoxs/index.html",
-    "static/css/main.499c6fca.chunk.css.map": "/SayarB/FuncBoxs/static/css/main.499c6fca.chunk.css.map",
-    "static/js/2.fdcdc093.chunk.js.LICENSE.txt": "/SayarB/FuncBoxs/static/js/2.fdcdc093.chunk.js.LICENSE.txt"
+    "main.css": "/FuncBox/static/css/main.499c6fca.chunk.css",
+    "main.js": "/FuncBox/static/js/main.b454e875.chunk.js",
+    "main.js.map": "/FuncBox/static/js/main.b454e875.chunk.js.map",
+    "runtime-main.js": "/FuncBox/static/js/runtime-main.0c626a48.js",
+    "runtime-main.js.map": "/FuncBox/static/js/runtime-main.0c626a48.js.map",
+    "static/js/2.fdcdc093.chunk.js": "/FuncBox/static/js/2.fdcdc093.chunk.js",
+    "static/js/2.fdcdc093.chunk.js.map": "/FuncBox/static/js/2.fdcdc093.chunk.js.map",
+    "static/js/3.a9755a20.chunk.js": "/FuncBox/static/js/3.a9755a20.chunk.js",
+    "static/js/3.a9755a20.chunk.js.map": "/FuncBox/static/js/3.a9755a20.chunk.js.map",
+    "index.html": "/FuncBox/index.html",
+    "static/css/main.499c6fca.chunk.css.map": "/FuncBox/static/css/main.499c6fca.chunk.css.map",
+    "static/js/2.fdcdc093.chunk.js.LICENSE.txt": "/FuncBox/static/js/2.fdcdc093.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e92d5cd.js",
+    "static/js/runtime-main.0c626a48.js",
     "static/js/2.fdcdc093.chunk.js",
     "static/css/main.499c6fca.chunk.css",
     "static/js/main.b454e875.chunk.js"
