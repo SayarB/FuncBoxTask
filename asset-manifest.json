@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/FuncBox/static/css/main.499c6fca.chunk.css",
-    "main.js": "/FuncBox/static/js/main.2e93129b.chunk.js",
-    "main.js.map": "/FuncBox/static/js/main.2e93129b.chunk.js.map",
+    "main.js": "/FuncBox/static/js/main.d98c173d.chunk.js",
+    "main.js.map": "/FuncBox/static/js/main.d98c173d.chunk.js.map",
     "runtime-main.js": "/FuncBox/static/js/runtime-main.0c626a48.js",
     "runtime-main.js.map": "/FuncBox/static/js/runtime-main.0c626a48.js.map",
-    "static/js/2.fdcdc093.chunk.js": "/FuncBox/static/js/2.fdcdc093.chunk.js",
-    "static/js/2.fdcdc093.chunk.js.map": "/FuncBox/static/js/2.fdcdc093.chunk.js.map",
+    "static/js/2.dbc29e4e.chunk.js": "/FuncBox/static/js/2.dbc29e4e.chunk.js",
+    "static/js/2.dbc29e4e.chunk.js.map": "/FuncBox/static/js/2.dbc29e4e.chunk.js.map",
     "static/js/3.a9755a20.chunk.js": "/FuncBox/static/js/3.a9755a20.chunk.js",
     "static/js/3.a9755a20.chunk.js.map": "/FuncBox/static/js/3.a9755a20.chunk.js.map",
     "index.html": "/FuncBox/index.html",
     "static/css/main.499c6fca.chunk.css.map": "/FuncBox/static/css/main.499c6fca.chunk.css.map",
-    "static/js/2.fdcdc093.chunk.js.LICENSE.txt": "/FuncBox/static/js/2.fdcdc093.chunk.js.LICENSE.txt"
+    "static/js/2.dbc29e4e.chunk.js.LICENSE.txt": "/FuncBox/static/js/2.dbc29e4e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0c626a48.js",
-    "static/js/2.fdcdc093.chunk.js",
+    "static/js/2.dbc29e4e.chunk.js",
     "static/css/main.499c6fca.chunk.css",
-    "static/js/main.2e93129b.chunk.js"
+    "static/js/main.d98c173d.chunk.js"
   ]
 }
